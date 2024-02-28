@@ -17,7 +17,7 @@ const Project = () => {
                         <h1 className="text-4xl font-bold mb-6">Desenvolvimento de Micro Serviços</h1>
                         <p className="mb-6">Na faculdade, eu e meu grupo decidimos criar alguns micro serviços para ajudar nas entregas que teríamos que desenvolver futuramente no curso. Foi aí que tive a oportunidade de contribuir para a construção de um microserviço dedicado ao envio de e-mails integrado com a API do Google,
                         utilizando as robustas ferramentas oferecidas pelo ecossistema SpringBoot. Esta experiência foi muito positiva para mim, pois consegui aprender conhecimentos valiosos sobre a arquitetura de microservices e suas vantagens em termos de escalabilidade, manutenção e implementação ágil.</p>
-                        <button className="btn btn-primary bg-customBlue absolute bottom-7 left-13">REPOSITÓRIO</button> 
+                        <button className="btn btn-primary bg-customBlue absolute bottom-4 left-13">REPOSITÓRIO</button> 
                     </div>
                 </div>
             </div>
