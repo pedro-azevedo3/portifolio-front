@@ -7,7 +7,6 @@ const Nav = () => {
         <a className="btn btn-ghost text-xl">
         <img src={logo} alt="Sua Logo" className="h-8 w-auto" />
         <div>
-            
         </div>
         </a>
             </div>
@@ -27,7 +26,7 @@ const Nav = () => {
             <button className="btn btn-square btn-ghost mr-5 w-full">
                 SKILLS
             </button>
-        </div>
+        </div>  
 
         <div className="flex-none">
             <button className="btn btn-square btn-ghost mr-5 w-full">
