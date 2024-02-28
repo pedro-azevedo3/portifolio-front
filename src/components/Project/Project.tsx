@@ -1,4 +1,5 @@
 import microservices from '../../assets/microservices.png';
+import api from '../../assets/api.png';
 
 const Project = () => {
   return (
@@ -25,7 +26,7 @@ const Project = () => {
             <div className="flex items-center justify-center">
                 <div className="container mx-auto px-3 relative"> 
                 <div className="flex flex-col lg:flex-row rounded-lg p-8 relative"> 
-                    <img src={microservices} className="max-w-full lg:max-w-sm rounded-lg lg:mr-8" />
+                    <img src={api} className="max-w-full lg:max-w-sm rounded-lg lg:mr-8" />
                     <div className="text-justify ml-4 mr-10">
                     <h1 className="text-4xl font-bold mb-6">Desenvolvimento Back-end Java e Python</h1>
                     <p className="mb-6">Tenho experiência desenvolvendo API's back-end com Java (SpringBoot) e Python(Flask), desenvolvi a API de envio e recebimento de PDF's e Emails em um projeto em meu último estágio utilizando o Framework Flask e o Banco de Dados MongoDB. Infelizmente o repositório desse projeto é privado.</p>
