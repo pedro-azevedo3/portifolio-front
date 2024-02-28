@@ -22,6 +22,7 @@ npm i
 ## Requirements ✅
 
 - [NodeJS v20.11](https://nodejs.org/en/download/)
+- [Tailwind CSS](https://tailwindcss.com/docs/installation/framework-guides)
 
 ## Figma Prototype ✏️
 
