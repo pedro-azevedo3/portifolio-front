@@ -1,4 +1,4 @@
-import Eu from '../../assets/Eu.png';
+import Eu from '../assets/Eu.png';
 
 const About = () => {
   return (

@@ -1,6 +1,6 @@
-import Nav from './components/Nav/Nav'
-import About from './components/About/About'
-import Project from './components/Project/Project'
+import Nav from './components/Nav'
+import About from './components/About'
+import Project from './components/Project'
 
 export default function App() {
   return (

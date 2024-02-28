@@ -1,5 +1,5 @@
-import microservices from '../../assets/microservices.png';
-import api from '../../assets/api.png';
+import microservices from '../assets/microservices.png';
+import api from '../assets/api.png';
 
 const Project = () => {
   return (
