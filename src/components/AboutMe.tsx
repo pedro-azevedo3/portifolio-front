@@ -4,7 +4,7 @@ import eu2 from '../assets/eu2.png';
 const Project = () => {
   return (
     <div>
-        <div className="pl-8 bg-bgPattern">
+        <div className="pl-4 pr-4 bg-bgPattern">
         <h1 className="text-white text-4xl font-bold">Sobre Mim</h1>
         <div className="flex flex-col w-full">
             <div className="divider"/>
