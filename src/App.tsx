@@ -1,6 +1,7 @@
 import Nav from './components/Nav'
 import About from './components/About'
 import Project from './components/Project'
+import AboutMe from './components/AboutMe'
 
 export default function App() {
   return (
@@ -8,6 +9,7 @@ export default function App() {
       <Nav/>
       <About/>
       <Project/>
+      <AboutMe/>
     </div>
   )
 }
