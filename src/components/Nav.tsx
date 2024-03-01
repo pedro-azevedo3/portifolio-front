@@ -3,7 +3,7 @@ import { scrollToSection } from '../App';
 
 const Nav = () => {
   return (
-    <div className="navbar bg-black">
+    <div className="navbar bg-black fixed top-0 left-0 w-full z-10">
       <div className="flex-1">
         <a className="btn btn-ghost text-xl">
           <img src={logo} alt="Sua Logo" className="h-8 w-auto" />
@@ -18,7 +18,7 @@ const Nav = () => {
 
       <div className="flex-none">
         <button className="btn btn-square btn-ghost mr-5 w-full" onClick={() => scrollToSection('AboutMe')}>
-          EU
+          MEUS PROJETOS
         </button>
       </div>
 

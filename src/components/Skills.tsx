@@ -48,7 +48,7 @@ const Skills: React.FC<ProjectProps> = ({ id }) => {
                     <div className="flex flex-col lg:flex-row-reverse rounded-lg p-8 relative" > 
                         <img src={BD} className="max-w-full lg:max-w-sm rounded-lg lg:mr-8" />
                         <div className="ml-4 mr-10">
-                        <h1 className="text-4xl font-bold mb-6 text-center ">Banco de Dados Relacionais</h1>
+                        <h1 className="text-4xl font-bold mb-6 text-center ">Banco de Dados</h1>
                         <p className="mb-6 text-justify ">Durante meus anos de desenvolvimento, seja em estágios ou na própria faculdade tive contato com alguns bancos de dados, sejam eles relacionais ou não relacionais. O primeiro banco de dados que tive experiência foi MySQL que usei na faculdade e posteriormente no estágio na prefeitura de Campina Grande. Outro banco de dados relacional que tive 
                         experiência foi o PostgreSQL que utilizei na faculdade e no desenvolvimento de micro serviços. Já o MongoDB, como citei acima utilizei no meu primeiro estágio.</p>
                     </div>
