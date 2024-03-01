@@ -1,11 +1,16 @@
+import React from 'react';
 import Spring from '../assets/Spring.png';
 import Python from '../assets/Python.png';
 import BD from '../assets/BD.png'
 import Front from '../assets/Front.png'
 
-const Skills = () => {
+interface ProjectProps {
+    id: string;
+}
+
+const Skills: React.FC<ProjectProps> = ({ id }) => {
   return (
-    <div>
+    <div id={id}>
         <div className="pl-4 pr-4 bg-bgPattern">
         <h1 className="text-white text-4xl font-bold">Skills</h1>
         <div className="flex flex-col w-full">

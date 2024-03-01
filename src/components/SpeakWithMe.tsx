@@ -1,7 +1,12 @@
+import React from 'react';
 
-const Speak = () => {
+interface ProjectProps {
+    id: string;
+}
+
+const Speak: React.FC<ProjectProps> = ({ id }) => {
   return (
-    <div>
+    <div id={id}>
       <div className="pl-4 pr-4 bg-bgPattern pb-10">
         <h1 className="text-white text-4xl font-bold">Fale Comigo</h1>
         <div className="flex flex-col w-full">

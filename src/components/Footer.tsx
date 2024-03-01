@@ -1,8 +1,13 @@
+import React from 'react';
 import logo from '../assets/logo.png'
 
-const Footer = () => {
+interface ProjectProps {
+  id: string;
+}
+
+const Footer: React.FC<ProjectProps> = ({ id }) => {
   return (
-    <div>
+    <div id = {id}>
       <footer className="footer footer-center p-10 bg-base-300 text-base-content ">
         <aside>
           <img src={logo} alt="devpedroazevedo" className="h-8 w-auto" />

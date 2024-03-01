@@ -1,9 +1,14 @@
+import React from 'react';
 import microservices from '../assets/microservices.png';
 import api from '../assets/api.png';
 
-const Project = () => {
+interface ProjectProps {
+  id: string;
+}
+
+const Project: React.FC<ProjectProps> = ({ id }) => {
   return (
-    <div>
+    <div id={id}>
         <div className="pl-4 pr-4 bg-bgPattern">
         <h1 className="text-white text-4xl font-bold">Meus projetos</h1>
         <div className="flex flex-col w-full">
@@ -40,4 +45,4 @@ const Project = () => {
   )
 }
 
-export default Project
+export default Project;

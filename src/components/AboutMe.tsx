@@ -1,10 +1,15 @@
+import React from 'react';
 import pedroca from '../assets/pedroca.png';
 import eu2 from '../assets/eu2.png';
 
-const Project = () => {
+interface ProjectProps {
+    id: string;
+}
+
+const AboutMe: React.FC<ProjectProps> = ({id}) => {
   return (
     <div>
-        <div className="pl-4 pr-4 bg-bgPattern">
+        <div id={id} className="pl-4 pr-4 bg-bgPattern">
         <h1 className="text-white text-4xl font-bold">Sobre Mim</h1>
         <div className="flex flex-col w-full">
             <div className="divider"/>
@@ -39,4 +44,4 @@ const Project = () => {
   )
 }
 
-export default Project
+export default AboutMe
