@@ -1,9 +1,13 @@
 import Eu from '../assets/Eu.png';
 import { scrollToSection } from '../App';
 
-const About = () => {
+interface ProjectProps {
+  id: string;
+}
+
+const About: React.FC<ProjectProps> = ({id}) =>{
   return (
-    <div className="bg-bgPattern">
+    <div id={id} className="bg-bgPattern">
       <div className="hero min-h-screen flex items-center justify-center"> {/* Ajustei a classe min-h-screen */}
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:flex-row bg-componentColor rounded-lg shadow-2xl p-8">

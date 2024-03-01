@@ -17,7 +17,7 @@ export default function App() {
   return (
     <div>
       <Nav />
-      <About/>
+      <About id="About"/>
       <Project id="MyProjects" />
       <AboutMe id="AboutMe" />
       <Skills id="Skills" />
