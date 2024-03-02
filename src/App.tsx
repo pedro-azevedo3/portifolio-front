@@ -3,7 +3,7 @@ import About from './components/About'
 import Project from './components/Project'
 import AboutMe from './components/AboutMe'
 import Skills from './components/Skills'
-import Speak from './components/SpeakWithMe'
+{/*import Speak from './components/SpeakWithMe'*/}
 import Footer from './components/Footer'
 import ContactMe from './components/ContactMe'
 
