@@ -23,7 +23,9 @@ const Project: React.FC<ProjectProps> = ({ id }) => {
                         <h1 className="text-4xl font-bold mb-6 text-center">Desenvolvimento de Micro Serviços</h1>
                         <p className="mb-6">Na faculdade, eu e meu grupo decidimos criar alguns micro serviços para ajudar nas entregas que teríamos que desenvolver futuramente no curso. Foi aí que tive a oportunidade de contribuir para a construção de um microserviço dedicado ao envio de e-mails integrado com a API do Google,
                         utilizando as robustas ferramentas oferecidas pelo ecossistema SpringBoot. Esta experiência foi muito positiva para mim, pois consegui aprender conhecimentos valiosos sobre a arquitetura de microservices e suas vantagens em termos de escalabilidade, manutenção e implementação ágil.</p>
+                        <a href="https://github.com/pedro-azevedo3/micro-service-email-sender" target="_blank">
                         <button className="btn btn-outline btn-info">Repositório</button>
+                        </a>         
                     </div>
                 </div>
             </div>

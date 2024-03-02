@@ -28,11 +28,11 @@ const Nav = () => {
         </button>
       </div>
       
-      <div className="flex-none">
+      {/*<div className="flex-none">
         <button className="btn btn-square btn-ghost mr-5 w-full" onClick={() => scrollToSection('Speak')}>
           FALE COMIGO
         </button>
-      </div>
+      </div>*/}
 
       <div className="flex-none">
         <button className="btn btn-square btn-ghost mr-5 w-full" onClick={() => scrollToSection('Footer')}>
