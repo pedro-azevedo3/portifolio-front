@@ -9,7 +9,7 @@
 
 # Portifolio Project 👨🏻
 
-This repository contains all the code from the front-end part of my portifolio project wich you can access in www.devpedroazevedo.com (still not avaible).
+This repository contains all the code from the front-end part of my portifolio project wich you can access in https://devpedroazevedo.netlify.app
 
 ## Installation ▶️
 
